@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="6" fill="#161E2D"/>
+  
+  <path d="M16 6L8 9V15.5C8 20.36 11.41 24.91 16 26C20.59 24.91 24 20.36 24 15.5V9L16 6Z" 
+        stroke="#0EA5E9" 
+        stroke-width="2" 
+        stroke-linejoin="round"/>
+        
+  <path d="M17.5 11L13.5 16H18.5L14.5 21" 
+        stroke="#0EA5E9" 
+        stroke-width="2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+        
+  <defs>
+    <filter id="glow" x="0" y="0" width="32" height="32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+</svg>
